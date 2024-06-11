@@ -71,8 +71,5 @@ the fisher test for count data shows that, the P value is .0000000423 I will rej
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
-```{r}
-table1 <- xtabs(~infected + treatment, data=druguser)
-rowPerc(table1)
-colPerc(table1)
-```
+
+  We conducted a series of test to see if the drugs or placebo seems to be effective of preventing aids, for the very first chart showing that not many people got aids and in a clinical trial showing that not many people got what the supposed treatment was to prevent. In the second chart that that we explored the amount of people in the tan area took the placebo while blue got the drugs, those who had aids three times as many took the placebo, the three times more likely to get infected had taken the placebo than taking the drug which value is shown to be .0000000423 which we have rejected the null hypothesis because of the huge difference in taking either the drug or placebo. Therefore showing that those taking the drug seems to prevent aids although we have no idea how this drug may work.
